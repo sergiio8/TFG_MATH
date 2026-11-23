@@ -1,6 +1,6 @@
 # Tropical Geometry and Amoebas
 
-This repository contains the final degree project for the thesis "Geometría tropical y amebas" by Sergio Martínez Olivera. The canonical document is the PDF file `TFG_Matemáticas_def.pdf`.
+This repository contains the final degree project for the thesis "Geometría tropical y amebas" by Sergio Martínez Olivera. The canonical document is [`thesis/TFG_Matemáticas_def.pdf`](thesis/TFG_Matemáticas_def.pdf).
 
 ## Repository classification
 
@@ -38,7 +38,7 @@ The repository content reflects the following verified mathematical methods and 
 ## Repository structure
 
 - `README.md` — project overview and usage notes
-- `TFG_Matemáticas_def.pdf` — the complete final written thesis
+- `thesis/TFG_Matemáticas_def.pdf` — the complete final written thesis
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ This repository does not contain an executable application or build process. The
 Example: view the document from a terminal on macOS:
 
 ```bash
-open "TFG_Matemáticas_def.pdf"
+open "thesis/TFG_Matemáticas_def.pdf"
 ```
 
 Example: verify that the PDF loads and count its pages:
@@ -59,7 +59,7 @@ Example: verify that the PDF loads and count its pages:
 ```bash
 python - <<'PY'
 from pypdf import PdfReader
-reader = PdfReader('TFG_Matemáticas_def.pdf')
+reader = PdfReader('thesis/TFG_Matemáticas_def.pdf')
 print(f'Pages: {len(reader.pages)}')
 print(reader.metadata.title)
 PY
@@ -89,4 +89,4 @@ The source of truth for the project is the PDF document itself. The repository d
 
 ## Status
 
-This repository is effectively a thesis archive and documentation repository. It is not an actively maintained software project, but it remains a complete record of the verified final work described in `TFG_Matemáticas_def.pdf`.
+This repository is effectively a thesis archive and documentation repository. It is not an actively maintained software project, but it remains a complete record of the verified final work described in [`thesis/TFG_Matemáticas_def.pdf`](thesis/TFG_Matemáticas_def.pdf).
